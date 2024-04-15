@@ -1,0 +1,9 @@
+run:
+    para colocar a aplicação no ar
+    uvicorn nome_do_arquivo_principal:app --reload
+
+precommit-install:
+    poetry run pre-commit install
+
+test:
+    poetry
